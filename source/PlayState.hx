@@ -2865,7 +2865,7 @@ class PlayState extends MusicBeatState
 		});
 	}
 
-	function moveTank():Void
+	if(!startingSong && !endingSong && boyfriend.animation.curAnim.name.startsWith('idle')) {
 	{
 		if (!inCutscene)
 		{
